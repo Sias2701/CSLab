@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Dec 11 16:46:01 2022
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : CPU
+Top-level Entity Name : CPU
+Family : Cyclone 10 LP
+Device : 10CL006YU256C6G
+Timing Models : Final
+Total logic elements : 609 / 6,272 ( 10 % )
+    Total combinational functions : 577 / 6,272 ( 9 % )
+    Dedicated logic registers : 263 / 6,272 ( 4 % )
+Total registers : 263
+Total pins : 139 / 177 ( 79 % )
+Total virtual pins : 0
+Total memory bits : 12,800 / 276,480 ( 5 % )
+Embedded Multiplier 9-bit elements : 1 / 30 ( 3 % )
+Total PLLs : 0 / 2 ( 0 % )

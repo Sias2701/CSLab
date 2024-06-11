@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sias/Desktop/CSLab/SineGenerator/simulation/qsim
+T_opt
+!s110 1670733948
+V5Q]Hf3Y]eV8b^H<VB3ni52
+04 25 18 work sinegenerator_vhd_vec_tst sinegenerator_arch 1
+=1-bce92f9c560f-6395607b-360-c60
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L cyclone10lp -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ehard_block
+Z1 w1670733947
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 cyclone10lp 21 cyclone10lp_atom_pack 0 22 7:30D7C9@^VDVBVRjeX7n2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 cyclone10lp 22 cyclone10lp_components 0 22 ?<lA^@8Wk6n3R@?;kckFa2
+!i122 2
+R0
+Z8 8SineGenerator.vho
+Z9 FSineGenerator.vho
+l0
+L35 1
+VnoSfVj?fNjXHhOP5_^Ul[2
+!s100 Sn11NdfJ;?D78I?HD]9>l1
+Z10 OL;C;2021.2;73
+32
+Z11 !s110 1670733947
+!i10b 1
+Z12 !s108 1670733947.000000
+Z13 !s90 -work|work|SineGenerator.vho|
+Z14 !s107 SineGenerator.vho|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 noSfVj?fNjXHhOP5_^Ul[2
+!i122 2
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Esinegenerator
+R1
+R3
+R7
+R2
+Z17 DPx6 altera 11 dffeas_pack 0 22 TQ^5KMh2RTWZ2DMjzQ9nl1
+R4
+R5
+R6
+Z18 DPx6 altera 28 altera_primitives_components 0 22 PeP4hI9?O;BKk::[TF3o:2
+!i122 2
+R0
+R8
+R9
+l0
+L80 1
+Vblb?oT@j^K=33CgK@hh8[3
+!s100 lkI@0aaURG0eU83:FkflZ1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 13 sinegenerator 0 22 blb?oT@j^K=33CgK@hh8[3
+!i122 2
+l144
+L99 428
+Vh=@hY?YzjLa=Ub>^lJ^3G0
+!s100 =^M^^81KZ5KLX;kaV5XK@2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Esinegenerator_vhd_vec_tst
+Z19 w1670733946
+R5
+R6
+!i122 3
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+V]]8:DMTHW<06T9l<LCT0B1
+!s100 XYhAB99Cm7G=VEMWWe7IQ0
+R10
+32
+R11
+!i10b 1
+R12
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 0
+R15
+R16
+Asinegenerator_arch
+R5
+R6
+DEx4 work 25 sinegenerator_vhd_vec_tst 0 22 ]]8:DMTHW<06T9l<LCT0B1
+!i122 3
+l45
+L34 31
+VCMbfG@]47>kbAWXHoB;MR0
+!s100 6SX^19lL4]c6lRz0B4N2^0
+R10
+32
+R11
+!i10b 1
+R12
+R22
+R23
+!i113 0
+R15
+R16

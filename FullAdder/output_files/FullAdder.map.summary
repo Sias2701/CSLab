@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec 11 12:40:18 2022
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : FullAdder
+Top-level Entity Name : FAdd4
+Family : Cyclone 10 LP
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

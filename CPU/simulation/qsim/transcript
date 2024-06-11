@@ -1,0 +1,140 @@
+# do CPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:52:19 on Dec 11,2022
+# vcom -work work CPU.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cyclone10lp_atom_pack
+# -- Loading package cyclone10lp_components
+# -- Compiling entity CPU
+# -- Compiling architecture structure of CPU
+# End time: 16:52:19 on Dec 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:52:19 on Dec 11,2022
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU_vhd_vec_tst
+# -- Compiling architecture CPU_arch of CPU_vhd_vec_tst
+# End time: 16:52:19 on Dec 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -c -t 1ps -L cyclone10lp -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.CPU_vhd_vec_tst 
+# Start time: 16:52:19 on Dec 11,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cpu_vhd_vec_tst(cpu_arch)#1
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cyclone10lp.cyclone10lp_atom_pack(body)
+# Loading cyclone10lp.cyclone10lp_components
+# Loading work.cpu(structure)#1
+# Loading altera.dffeas(vital_dffeas)#1
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#255
+# Loading ieee.std_logic_arith(body)
+# Loading cyclone10lp.cyclone10lp_io_obuf(arch)#1
+# Loading cyclone10lp.cyclone10lp_io_ibuf(arch)#1
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#9
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#11
+# Loading cyclone10lp.cyclone10lp_jtag(architecture_jtag)#1
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#12
+# Loading altera.dffeas(vital_dffeas)#2
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#18
+# Loading altera.dffeas(vital_dffeas)#3
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#120
+# Loading altera.dffeas(vital_dffeas)#4
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#160
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#32
+# Loading altera.dffeas(vital_dffeas)#5
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#101
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#57
+# Loading altera.dffeas(vital_dffeas)#6
+# Loading altera.dffeas(vital_dffeas)#7
+# Loading altera.dffeas(vital_dffeas)#8
+# Loading altera.dffeas(vital_dffeas)#9
+# Loading altera.dffeas(vital_dffeas)#10
+# Loading altera.dffeas(vital_dffeas)#11
+# Loading cyclone10lp.cyclone10lp_clkctrl(vital_clkctrl)#1
+# Loading cyclone10lp.cyclone10lp_ena_reg(behave)#1
+# Loading cyclone10lp.cyclone10lp_ram_block(block_arch)#1
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#1
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#2
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#3
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#4
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#5
+# Loading cyclone10lp.cyclone10lp_ram_pulse_generator(pgen_arch)#1
+# Loading cyclone10lp.cyclone10lp_ram_register(reg_arch)#6
+# Loading cyclone10lp.cyclone10lp_ram_block(block_arch)#2
+# Loading cyclone10lp.cyclone10lp_ram_block(block_arch)#3
+# Loading cyclone10lp.cyclone10lp_ram_block(block_arch)#4
+# Loading ieee.std_logic_unsigned(body)
+# Loading cyclone10lp.cyclone10lp_mac_mult(vital_cyclone10lp_mac_mult)#1
+# Loading cyclone10lp.cyclone10lp_mac_data_reg(vital_cyclone10lp_mac_data_reg)#1
+# Loading cyclone10lp.cyclone10lp_mac_sign_reg(cyclone10lp_mac_sign_reg)#1
+# Loading cyclone10lp.cyclone10lp_mac_mult_internal(vital_cyclone10lp_mac_mult_internal)#1
+# Loading cyclone10lp.cyclone10lp_mac_out(vital_cyclone10lp_mac_out)#1
+# Loading altera.dffeas(vital_dffeas)#12
+# Loading cyclone10lp.cyclone10lp_lcell_comb(vital_lcell_comb)#264
+# ** Warning: (vsim-8683) Uninitialized out port /cpu_vhd_vec_tst/i1/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /cpu_vhd_vec_tst/i1/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /cpu_vhd_vec_tst/i1/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /cpu_vhd_vec_tst/i1/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+# after#34
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83 ns  Iteration: 12  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 223 ns  Iteration: 12  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 363 ns  Iteration: 12  Instance: /cpu_vhd_vec_tst/i1/\inst10|Mult0|auto_generated|mac_mult1\/mac_multiply
+# Simulation time: 4077500 ps
+# Simulation time: 4077500 ps
+# Simulation time: 4077500 ps
+# Simulation time: 4077500 ps
+# Simulation time: 4077500 ps
+# Simulation time: 4077500 ps
+# End time: 16:52:36 on Dec 11,2022, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 14

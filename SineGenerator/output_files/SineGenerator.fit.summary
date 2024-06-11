@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Dec 11 13:00:23 2022
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : SineGenerator
+Top-level Entity Name : SineGenerator
+Family : Cyclone 10 LP
+Device : 10CL006YE144C6G
+Timing Models : Final
+Total logic elements : 6 / 6,272 ( < 1 % )
+    Total combinational functions : 6 / 6,272 ( < 1 % )
+    Dedicated logic registers : 6 / 6,272 ( < 1 % )
+Total registers : 6
+Total pins : 9 / 89 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 512 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

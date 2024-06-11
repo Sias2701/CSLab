@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sias/Desktop/CSLab/FullAdder/simulation/qsim
+T_opt
+Z1 !s110 1670733475
+Vli:`1GTDT92gW0dYdF>IA3
+04 21 14 work fulladder_vhd_vec_tst fulladder_arch 1
+=1-bce92f9c560f-63955ea3-1e7-360c
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L cyclone10lp -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Efulladder
+Z2 w1670733474
+Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z4 DPx11 cyclone10lp 21 cyclone10lp_atom_pack 0 22 7:30D7C9@^VDVBVRjeX7n2
+Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx11 cyclone10lp 22 cyclone10lp_components 0 22 ?<lA^@8Wk6n3R@?;kckFa2
+!i122 0
+R0
+Z9 8FullAdder.vho
+Z10 FFullAdder.vho
+l0
+L78 1
+VV?lGi39I[X`9`[g_HFe<G1
+!s100 klK]kZLT0N7[9Nh?K:78e3
+Z11 OL;C;2021.2;73
+32
+R1
+!i10b 1
+Z12 !s108 1670733475.000000
+Z13 !s90 -work|work|FullAdder.vho|
+Z14 !s107 FullAdder.vho|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 fulladder 0 22 V?lGi39I[X`9`[g_HFe<G1
+!i122 0
+l126
+L96 139
+Vah5Vf<mHEKjPG`7ij5i?a2
+!s100 gO0Cfz3`W6Zn_V`X^Z:To2
+R11
+32
+R1
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Efulladder_vhd_vec_tst
+R2
+R6
+R7
+!i122 1
+R0
+Z17 8Waveform.vwf.vht
+Z18 FWaveform.vwf.vht
+l0
+L32 1
+V0SZ`JRdiNR?DZkOzJd6D_0
+!s100 c;8TPlC2dJC[hUPi67k7[0
+R11
+32
+R1
+!i10b 1
+R12
+Z19 !s90 -work|work|Waveform.vwf.vht|
+Z20 !s107 Waveform.vwf.vht|
+!i113 0
+R15
+R16
+Afulladder_arch
+R6
+R7
+DEx4 work 21 fulladder_vhd_vec_tst 0 22 0SZ`JRdiNR?DZkOzJd6D_0
+!i122 1
+l51
+L34 77
+V[;TUMOclzidR7JCZh37JF0
+!s100 NDzUMk]7B18mP:k7aK]e@2
+R11
+32
+R1
+!i10b 1
+R12
+R19
+R20
+!i113 0
+R15
+R16
+Ehard_block
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 0
+R0
+R9
+R10
+l0
+L35 1
+VnoSfVj?fNjXHhOP5_^Ul[2
+!s100 Sn11NdfJ;?D78I?HD]9>l1
+R11
+32
+R1
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 10 hard_block 0 22 noSfVj?fNjXHhOP5_^Ul[2
+!i122 0
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R11
+32
+R1
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16

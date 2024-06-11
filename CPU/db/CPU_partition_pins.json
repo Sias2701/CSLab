@@ -1,0 +1,581 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ACC_ZF",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_RW",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ACC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_MODE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_MODE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_MODE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_MODE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_OP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_RES[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BRANCH_ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CAR_CONTROL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CAR_CONTROL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CAR_CONTROL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CAR_CONTROL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[21]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[20]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[19]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[18]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[17]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[16]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[14]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[13]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[12]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[11]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONTROL_BUS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR_BUS_CONTROL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR_BUS_CONTROL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR_BUS_CONTROL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR_BUS_CONTROL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MBR_BUS_CONTROL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BUS_CONTROL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BUS_CONTROL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BUS_CONTROL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BUS_CONTROL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_CTX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
